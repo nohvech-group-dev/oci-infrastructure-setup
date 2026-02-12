@@ -25,7 +25,7 @@ This repository contains the complete setup documentation for a production-ready
 
 **Setup Date:** February 12, 2026  
 **Region:** us-ashburn-1 (US East - Ashburn)  
-**Organization:** The-Nohvech-Group
+**Organization:** nohvech-group-dev
 
 ## 🏗️ Architecture
 
@@ -176,7 +176,7 @@ This documentation is provided as-is for reference purposes.
 
 ## 👥 Contributors
 
-- Infrastructure Team - The-Nohvech-Group
+- Infrastructure Team - nohvech-group-dev
 - Setup Date: February 12, 2026
 
 ---
