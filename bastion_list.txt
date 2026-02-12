@@ -1,0 +1,17 @@
+Warning: To increase security of your API key located at C:\Users\gleti\.oci\oci_api_key.pem, append an extra line with 'OCI_API_KEY' at the end. For more information, refer to https://docs.oracle.com/iaas/Content/API/Concepts/apisigningkey.htm. To suppress the warning, set the env variable SUPPRESS_LABEL_WARNING=True
+Get-Acl : The 'Get-Acl' command was found in the module 'Microsoft.PowerShell.Security', but the module could not be loaded. For more information, run 
+'Import-Module Microsoft.PowerShell.Security'.
+At line:1 char:37
++ $ex_perms=@();$defaults=@();$macls=(Get-Acl "C:\Users\gleti\.oci\conf ...
++                                     ~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Get-Acl:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CouldNotAutoloadMatchingModule
+ 
+Get-Acl : The 'Get-Acl' command was found in the module 'Microsoft.PowerShell.Security', but the module could not be loaded. For more information, run 
+'Import-Module Microsoft.PowerShell.Security'.
+At line:1 char:37
++ $ex_perms=@();$defaults=@();$macls=(Get-Acl "C:\Users\gleti\.oci\oci_ ...
++                                     ~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Get-Acl:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CouldNotAutoloadMatchingModule
+ 

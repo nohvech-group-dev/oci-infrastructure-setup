@@ -1,0 +1,50 @@
+Warning: To increase security of your API key located at C:\Users\gleti\.oci\oci_api_key.pem, append an extra line with 'OCI_API_KEY' at the end. For more information, refer to https://docs.oracle.com/iaas/Content/API/Concepts/apisigningkey.htm. To suppress the warning, set the env variable SUPPRESS_LABEL_WARNING=True
+Get-Acl : The 'Get-Acl' command was found in the module 'Microsoft.PowerShell.Security', but the module could not be loaded. For more information, run 
+'Import-Module Microsoft.PowerShell.Security'.
+At line:1 char:37
++ $ex_perms=@();$defaults=@();$macls=(Get-Acl "C:\Users\gleti\.oci\conf ...
++                                     ~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Get-Acl:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CouldNotAutoloadMatchingModule
+ 
+Get-Acl : The 'Get-Acl' command was found in the module 'Microsoft.PowerShell.Security', but the module could not be loaded. For more information, run 
+'Import-Module Microsoft.PowerShell.Security'.
+At line:1 char:37
++ $ex_perms=@();$defaults=@();$macls=(Get-Acl "C:\Users\gleti\.oci\oci_ ...
++                                     ~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Get-Acl:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CouldNotAutoloadMatchingModule
+ 
+{
+  "data": {
+    "bastion-type": "STANDARD",
+    "client-cidr-block-allow-list": [
+      "0.0.0.0/0"
+    ],
+    "compartment-id": "ocid1.compartment.oc1..aaaaaaaaz4r2gcj4uehwhpda5h7crighwcdreppuatluiqvy2sxmda7amcga",
+    "defined-tags": {
+      "Oracle-Tags": {
+        "CreatedBy": "default/dev@nohvech.com",
+        "CreatedOn": "2026-02-12T21:10:27.383Z"
+      }
+    },
+    "dns-proxy-status": "DISABLED",
+    "freeform-tags": {},
+    "id": "ocid1.bastion.oc1.iad.amaaaaaaofvcz2qaqfsdnnjspl5ws5vs4nqvrn62rt34pljrobufrahtru2a",
+    "lifecycle-details": null,
+    "lifecycle-state": "CREATING",
+    "max-session-ttl-in-seconds": 10800,
+    "max-sessions-allowed": 20,
+    "name": "Production-Bastion",
+    "phone-book-entry": null,
+    "private-endpoint-ip-address": null,
+    "security-attributes": {},
+    "static-jump-host-ip-addresses": null,
+    "system-tags": {},
+    "target-subnet-id": "ocid1.subnet.oc1.iad.aaaaaaaak2bae27mheowacne5pgz3kylrulpjnumxrg56hylwdty5wxjq5ta",
+    "target-vcn-id": "ocid1.vcn.oc1.iad.amaaaaaaofvcz2qaokz6cqfhuntyg5e6yqzsuj4dr2ukkzjfbh3doynegppq",
+    "time-created": "2026-02-12T21:10:30.741000+00:00",
+    "time-updated": "2026-02-12T21:10:30.741000+00:00"
+  },
+  "opc-work-request-id": "ocid1.bastionworkrequest.oc1.iad.amaaaaaaofvcz2qa537kc3bwffq4fltucpkcc4bqw7ytlnlkm6r55s6rrfpa"
+}
