@@ -1,0 +1,123 @@
+Warning: To increase security of your API key located at C:\Users\gleti\.oci\oci_api_key.pem, append an extra line with 'OCI_API_KEY' at the end. For more information, refer to https://docs.oracle.com/iaas/Content/API/Concepts/apisigningkey.htm. To suppress the warning, set the env variable SUPPRESS_LABEL_WARNING=True
+Get-Acl : The 'Get-Acl' command was found in the module 'Microsoft.PowerShell.Security', but the module could not be loaded. For more information, run 
+'Import-Module Microsoft.PowerShell.Security'.
+At line:1 char:37
++ $ex_perms=@();$defaults=@();$macls=(Get-Acl "C:\Users\gleti\.oci\conf ...
++                                     ~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Get-Acl:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CouldNotAutoloadMatchingModule
+ 
+Get-Acl : The 'Get-Acl' command was found in the module 'Microsoft.PowerShell.Security', but the module could not be loaded. For more information, run 
+'Import-Module Microsoft.PowerShell.Security'.
+At line:1 char:37
++ $ex_perms=@();$defaults=@();$macls=(Get-Acl "C:\Users\gleti\.oci\oci_ ...
++                                     ~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Get-Acl:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CouldNotAutoloadMatchingModule
+ 
+{
+  "data": [
+    {
+      "availability-domain": null,
+      "cidr-block": "10.0.20.0/24",
+      "compartment-id": "ocid1.compartment.oc1..aaaaaaaaz4r2gcj4uehwhpda5h7crighwcdreppuatluiqvy2sxmda7amcga",
+      "defined-tags": {
+        "Oracle-Tags": {
+          "CreatedBy": "default/dev@nohvech.com",
+          "CreatedOn": "2026-02-12T17:01:41.375Z"
+        }
+      },
+      "dhcp-options-id": "ocid1.dhcpoptions.oc1.iad.aaaaaaaamowgsslbvvfrgoescwa4aceuk4ze65gkffyjhf2uj5kfci7aukrq",
+      "display-name": "Private-DB-Subnet",
+      "dns-label": "privatedb",
+      "freeform-tags": {},
+      "id": "ocid1.subnet.oc1.iad.aaaaaaaa4dg2vghhcjuddvhqsg7gaaobwtuhu32hvejo3hgilifac4hlsuba",
+      "ipv4-cidr-blocks": [
+        "10.0.20.0/24"
+      ],
+      "ipv6-cidr-block": null,
+      "ipv6-cidr-blocks": null,
+      "ipv6-virtual-router-ip": null,
+      "lifecycle-state": "AVAILABLE",
+      "prohibit-internet-ingress": true,
+      "prohibit-public-ip-on-vnic": true,
+      "route-table-id": "ocid1.routetable.oc1.iad.aaaaaaaapnkyfubpiqjvgz4dll7ey3z6hradqkumkvpicot24v4wwyc7ydvq",
+      "security-list-ids": [
+        "ocid1.securitylist.oc1.iad.aaaaaaaaaxbhjhg3bmg5shqe6luew2wbnjcgritoagei6lk2qlexyhigjnjq"
+      ],
+      "subnet-domain-name": "privatedb.prodvcn.oraclevcn.com",
+      "time-created": "2026-02-12T17:01:41.426000+00:00",
+      "vcn-id": "ocid1.vcn.oc1.iad.amaaaaaaofvcz2qaokz6cqfhuntyg5e6yqzsuj4dr2ukkzjfbh3doynegppq",
+      "virtual-router-ip": "10.0.20.1",
+      "virtual-router-mac": "00:00:17:8B:AE:DB"
+    },
+    {
+      "availability-domain": null,
+      "cidr-block": "10.0.10.0/24",
+      "compartment-id": "ocid1.compartment.oc1..aaaaaaaaz4r2gcj4uehwhpda5h7crighwcdreppuatluiqvy2sxmda7amcga",
+      "defined-tags": {
+        "Oracle-Tags": {
+          "CreatedBy": "default/dev@nohvech.com",
+          "CreatedOn": "2026-02-12T17:01:24.454Z"
+        }
+      },
+      "dhcp-options-id": "ocid1.dhcpoptions.oc1.iad.aaaaaaaamowgsslbvvfrgoescwa4aceuk4ze65gkffyjhf2uj5kfci7aukrq",
+      "display-name": "Private-App-Subnet",
+      "dns-label": "privateapp",
+      "freeform-tags": {},
+      "id": "ocid1.subnet.oc1.iad.aaaaaaaak2bae27mheowacne5pgz3kylrulpjnumxrg56hylwdty5wxjq5ta",
+      "ipv4-cidr-blocks": [
+        "10.0.10.0/24"
+      ],
+      "ipv6-cidr-block": null,
+      "ipv6-cidr-blocks": null,
+      "ipv6-virtual-router-ip": null,
+      "lifecycle-state": "AVAILABLE",
+      "prohibit-internet-ingress": true,
+      "prohibit-public-ip-on-vnic": true,
+      "route-table-id": "ocid1.routetable.oc1.iad.aaaaaaaapnkyfubpiqjvgz4dll7ey3z6hradqkumkvpicot24v4wwyc7ydvq",
+      "security-list-ids": [
+        "ocid1.securitylist.oc1.iad.aaaaaaaaaxbhjhg3bmg5shqe6luew2wbnjcgritoagei6lk2qlexyhigjnjq"
+      ],
+      "subnet-domain-name": "privateapp.prodvcn.oraclevcn.com",
+      "time-created": "2026-02-12T17:01:24.496000+00:00",
+      "vcn-id": "ocid1.vcn.oc1.iad.amaaaaaaofvcz2qaokz6cqfhuntyg5e6yqzsuj4dr2ukkzjfbh3doynegppq",
+      "virtual-router-ip": "10.0.10.1",
+      "virtual-router-mac": "00:00:17:8B:AE:DB"
+    },
+    {
+      "availability-domain": null,
+      "cidr-block": "10.0.1.0/24",
+      "compartment-id": "ocid1.compartment.oc1..aaaaaaaaz4r2gcj4uehwhpda5h7crighwcdreppuatluiqvy2sxmda7amcga",
+      "defined-tags": {
+        "Oracle-Tags": {
+          "CreatedBy": "default/dev@nohvech.com",
+          "CreatedOn": "2026-02-12T17:01:02.858Z"
+        }
+      },
+      "dhcp-options-id": "ocid1.dhcpoptions.oc1.iad.aaaaaaaamowgsslbvvfrgoescwa4aceuk4ze65gkffyjhf2uj5kfci7aukrq",
+      "display-name": "Public-Subnet",
+      "dns-label": "public",
+      "freeform-tags": {},
+      "id": "ocid1.subnet.oc1.iad.aaaaaaaadwjp3ngjvfhlroqoaoitdc4ajgxs4jtwydk3ib5antigqyj4ah6q",
+      "ipv4-cidr-blocks": [
+        "10.0.1.0/24"
+      ],
+      "ipv6-cidr-block": null,
+      "ipv6-cidr-blocks": null,
+      "ipv6-virtual-router-ip": null,
+      "lifecycle-state": "AVAILABLE",
+      "prohibit-internet-ingress": false,
+      "prohibit-public-ip-on-vnic": false,
+      "route-table-id": "ocid1.routetable.oc1.iad.aaaaaaaapnkyfubpiqjvgz4dll7ey3z6hradqkumkvpicot24v4wwyc7ydvq",
+      "security-list-ids": [
+        "ocid1.securitylist.oc1.iad.aaaaaaaaaxbhjhg3bmg5shqe6luew2wbnjcgritoagei6lk2qlexyhigjnjq"
+      ],
+      "subnet-domain-name": "public.prodvcn.oraclevcn.com",
+      "time-created": "2026-02-12T17:01:02.926000+00:00",
+      "vcn-id": "ocid1.vcn.oc1.iad.amaaaaaaofvcz2qaokz6cqfhuntyg5e6yqzsuj4dr2ukkzjfbh3doynegppq",
+      "virtual-router-ip": "10.0.1.1",
+      "virtual-router-mac": "00:00:17:8B:AE:DB"
+    }
+  ]
+}

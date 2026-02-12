@@ -1,0 +1,6 @@
+Warning: To increase security of your API key located at C:\Users\gleti\.oci\oci_api_key.pem, append an extra line with 'OCI_API_KEY' at the end. For more information, refer to https://docs.oracle.com/iaas/Content/API/Concepts/apisigningkey.htm. To suppress the warning, set the env variable SUPPRESS_LABEL_WARNING=True
+Usage: oci bastion bastion create [OPTIONS]
+
+Error: No such option: --client-cidr-block-allow-list Did you mean --client-cidr-list?
+
+For OCI CLI commands and parameters suggestion, auto completion and other useful features, try the Interactive mode by typing `oci -i`.
